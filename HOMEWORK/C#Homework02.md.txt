@@ -1,0 +1,17 @@
+1. What is a local variable? Variables that exit only in a method or other small seciton of code (limited time in a place) (common variable (i) (n) (sum) (total)
+2. What is a statement? A statement is a commmand that performs and action, such as calculating a value and storing the result of displaying a message to a user
+3. What are identifiers? They are names that you use to identify the elements in your programs, such as namespaces, classes, methosds and variables
+4. What is a variable? Location that stores a value 
+5. What is a method? A method is combination of statements / named sequence of statements
+6. Are premitives types and values types the samething? Yes they are the same.
+7. Arithmitic operators in C# perform arithmtic operations value types directly contain values used to define values
+8. How do you string into a integer? Str_Seconds = Int_Seconds.ToString();
+9. How do you turn a string into an integer? int.Parse()
+10. What is the difference between precedence and associativiy? Give and example where this makes a difference. 
+	Precedence governs the order in which an expressions operatorsare evaluated (vertical colum)
+	Associativity is the direction (left or right) in which the operands of an operator are evaluated (Horizontal colum)
+	(2+3) * 4
+11. What is the definite assingment rule? It is a rule stating that every variable must have a value before its read
+12. How are prefix and postfix increment and decrement operators evaluated differently? They are evaluted by increment (++) and decrement (--)
+13. what is string interpoation? It is a common use of string concentenation is to generate string values that include variable values.
+14. What does the var keyword do? It Causes the complier to deduce the type of the variables from the types of the expressions used to initalize them.

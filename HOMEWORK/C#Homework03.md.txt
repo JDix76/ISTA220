@@ -1,0 +1,40 @@
+Chapter 3 Discussion questions
+
+1. what is a method?
+- it is a named sequence of statements.
+
+2. What does a return statement do?
+- it returns information requested from a method/ it usually stops the method
+
+3. What is an expression bodied method?
+-  a consise way to define a method / - it helps clarify code
+-  a short hand method of writing code
+-  example: int add(Values(int leftHandSide, int rightHandSide)=> leftHandSide + righHanddSide
+
+4. What is the scope of a variable?
+- when a variable can be accessed at a paticular location in a program.
+- 
+
+5. What is and overloaded method?
+- allows a class to have multiple methods with the same name with different set of parameters.
+
+6. How do you call a method that requirements arguments?
+- specify the name of the parameter in the method call
+- void optMethod (int first, double second = 0.0 string third = "Hello"0;
+ 
+7. How do you write a method, that is , specify the method deinition, that requires a parameter list?
+- privat void dog(int v, string x);
+
+8. How do you a parameter specify as optional when defining a method?
+- provide a default value for the parameter in the method declaration
+- private void walk_dog (dog a, dog b)
+- walk_dog(Rex, King)
+- if you want to pass named aruguments not in order you can use this example: walk_dog(B:King, A:Rex)
+
+9. How do you pass a argument to a method as a named parametert?
+- you have to specify the name of the parameter, followed by a colon and the value to use.
+- 
+
+10. How does the complier resolve and ambiguity betweeen named arguments and optional parameters?
+- it doesnt resolve the issue and will not let you compile the application
+- it will give you an error

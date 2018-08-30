@@ -1,0 +1,28 @@
+﻿1. What is an exception?
+- An exception is a C# keyword that is a response to an exceptional circumstance that arises while a program is running,
+
+2. What happens in a try block if the program executes without errors?
+- If the code executes without error then it will continue to execute until completion.
+
+3. How does the catch mechanism work for unhandled exceptions?
+- The catch mechanism employs syntax similar to that used by a method parameter to specify the exception to be caught.
+
+4. What happens in a program if an exception block fails to handle an particular error?
+- it will not execute
+
+5. What is the parent class for all exceptions? How does this work?
+- The parent class for all exceptions is called System.SystemException
+
+
+6. How do you determine the type of an error?
+- property will tell type of error
+
+7. What is the purpose of integer checking?
+- to ensure that whatever math you are calculating within the max or min int range
+- int number = int.max.value:
+
+int willthrow = number++;
+console.writeline("this wont be readched");
+
+8. What does the ﬁnally block do?
+- Refers to a block of statements that are always executed, regardless of unexpected events or exceptions that may occur during an application's execution.

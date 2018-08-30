@@ -1,0 +1,39 @@
+Chapter 04 Homework
+
+1. What ae all possible values of a Boolean expression
+- True or False
+
+2. List eight Boolean operators.
+== equal to
+
+ != not equal to
+&&
+//
+<=
+>=
+and / or
+||
+
+3. What is the general concept of short circuiting? This question has a short and simpile answer and you do not need to have a detailed response.
+- if the boolean expression on the left side is false or true the boolean expression on the right of the && operator is not evaluated
+
+4. What are the difference in how short circuiting work for && and ||?
+- the are executed differently...AND / OR
+
+5. Look at the list of operators. What operator hs the highest precedence? Which has the lowest?
+- () Presendence override, = assigns the right-hand operand to the left and returns the value that was assigned
+
+6. In a if or else construction using multilple lines of code, what effet does the use of curly braces have? 
+- any information outside of the braces or blocks will dissapear and not be avaiable for recall
+- 
+
+7. In a switch statement, what happens if you omit break?
+- if you omit the break statement the If you don't include break in any of case then all the case below will be executed and until it sees break. And if you don't include break in default then it will cause no effect as there are not any case below this 'Default' case.
+- it just falls through the block of code
+
+8. What is a recursive method?
+-A Method can call another methods but it can also call itself. When a mathod calls itself, it'll be named recursive method.
+ 
+
+
+

@@ -1,0 +1,39 @@
+--AUTHOR: JAMES DIX
+--DATE: 7 SEPT 2018
+--SUBJECT: C# HOWEWORK09
+
+
+1.	Declare an enum for military ranks either officer or enlisted. Name it ranks. What are the symbols, like private, PFC, Coroporal, 2LT, 1LT, Capt?
+enum Ranks {1LT, 2LT, CPT, MAJ, LTC, COL, BG, MG, LTG}
+
+2.	Using the ranks enum assign a rank to yourself or a friend.
+Ranks Wilson = Ranks.MAJ;
+
+3.	Determine the numeric index of particular ranks, using the Ranks enum.
+ConsoleWriteLine((int)enum Ranks);
+
+4.	How do you select the type of an enum?
+enum Ranks : short {2LT, 1LT, CPT, MAJ, LTC, COL, BG, MG, LTG}
+TYPE.whatever you name it
+
+5.	Are structs stored on the stack or the heap? What about enums?
+A struct is a value type and thus stored on the stack. An enum is a type as well and thus stored on the stack.
+-they are both on the stack
+
+6.	Declare a struct named DOD with 4 branches.
+struct DOD { public string Army, AirForce, Navy, Marines; }
+{
+private string Army;
+private string AF;
+private string Marnies;
+private string Navy;
+}
+
+7.	Why can't you create a default constructor for a struct?
+The reason you cant declare your own default constructor for a structure is that the compiler always generates one. In a class, the compiler generates the default constructor only is you don't write a constructor yourself.
+
+8.	What is CIL? What does the CLR do to the CIL?
+CIL is the common intermediate language and it is the language the compiler converts C# code into. The CLR (common language runtime) then converts this to real machine instructions that the processor on your computer can understand and execute. 
+
+
+

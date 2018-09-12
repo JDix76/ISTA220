@@ -1,0 +1,30 @@
+--AUTHOR: JAMES DIX
+--DATE: 11 SEPT 2018
+--SUBJECT: C#Homework11
+
+1. How do you deﬁne a method that takes an arbitrary number of arguments?2
+class Util
+{
+	public static int Min(params int[] paramList
+
+2. How do you call a method that takes an arbitrary number of argiments?
+public int dostuff(params int[] stuff
+dostuff(1)  			stuff[0] = 1
+dostuff(1,2)			stuff[1] == 2
+dostuff(1,2,3,4,5,6,	stuff[9] == 123456
+
+3. Why can’t you use an array to pass an arbitrary number of arguments to a method?
+- You cannot use and array to pass an arbirtary number becaue a method that takes optional parameters still has a fixed parameter list, and you cannot
+pass and arbitrary list of arguments.
+
+4. How many parameters can a method have?
+- Generally you can use parameter arrays for methods that take any number of parameters including (none).
+
+5. Do parameter arguments have to have the same type?
+yes, all your parameters have to by the same type
+
+6. What is the diﬀerence between a method that takes a parameter argument and one that takes optional arguments?
+- the difference is that optional can take any number of arguments.
+
+7. How do you deﬁne a method that takes diﬀerent (and arbitrary) types of arguments?
+- public static void methodname params_object[] name

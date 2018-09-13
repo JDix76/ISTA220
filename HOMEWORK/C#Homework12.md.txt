@@ -1,0 +1,58 @@
+--AUTHOR: JAMES DIX
+--DATE: 12 SEPT 2018
+--SUBJECT: C#HOMEWORK12
+1.2 Discussion Questions
+Answer the discussion questions in writing.
+1. How does inheritance promote the principle of don’t repeat yourself (DRY)?
+- in C# you can use class inheritance to create classes the provide common functionality
+
+2. What is the syntax of a derived class that inherits from a base class?
+
+class DerivedClass : BaseClass
+	{
+		....
+	}
+	class Mammal
+	{
+		public void Breathe()
+		{
+			....
+
+3. Do all user deﬁned types (classes and structs) inherit from some base class? If so, what is it?
+-  No, not all user defined types inherit from some base classes because all structes actually inherit from an abstract class named System.ValueType
+
+4. What happens if you do not have a default constructor in a base class when creating a derived class?
+-If you don not provide at least one constructor then the compiler generates a default constuctor.
+
+5. Can you assign a variable of a derived class to another variable of its base class? Why or why not?
+-Yes, because 
+
+6. Can you assign a variable of a derived class to another variable of of a derived class of its base class? Why or why not?
+- No, butIt depends because if a method can be shared by another class
+
+7. Can you assign a variable of a base class to another variable of a derived class? Why or why not?
+- No, because you would have to cast 
+
+8. Under what circumstances would you want to use the new keyword when deﬁning a method in a derived class?
+- usin the new keyword like this does not change the fact that the two methods are completely unrealted and the hiding
+still occurs. it just turns the warning off.
+
+9. What is a virtual method? Why would you want to deﬁne a virtual method?
+- A method that is intended to be overriden 
+namespace system
+{
+	class object
+	{
+		public virtual string ToString()
+
+10. What does override do? Why does it do it?
+- You can use it to declare another implementation of that method,
+
+11. How do you deﬁne an extension type?
+static class Util 
+{
+	public static in Negate(this int i)
+	
+
+12. Why do you deﬁne an extension type?
+- It allows you to add on or make better 
